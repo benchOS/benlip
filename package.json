@@ -1,0 +1,32 @@
+{
+  "name": "benlip",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benchos/benlip"
+  },
+  "description": "Retrieves the local network address of a benOS-powered computer.",
+  "keywords": [
+    "benos-network-address",
+    "network-address",
+    "webos-network-address"
+  ],
+  "author": "Bench Computer, Inc. <labs@benchx.io>",
+  "bin": {
+    "benlip": "./cli.js"
+  },
+  "devDependencies": {
+    "standard": "^6.0.7",
+    "tape": "^3.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/benchos/benlip/issues"
+  },
+  "homepage": "https://github.com/benchos/benlip",
+  "main": "index.js",
+  "license": "MIT"
+}
